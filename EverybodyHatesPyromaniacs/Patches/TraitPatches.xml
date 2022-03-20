@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!--TRAIT CONFLICTS-->
+
+<Operation Class="PatchOperationFindMod">
+	<success>Normal</success>
+    <mods>
+        <li>[MLP] My Little RimPony</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="EveryoneVsPyromaniac"]/nullifyingTraits</xpath>
+	    <value>
+			<li>MLRP_BronyTrait</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/TraitDef[defName="defName"]/commonality</xpath>
+	    <value>
+			<commonality>0.1</commonality>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>
