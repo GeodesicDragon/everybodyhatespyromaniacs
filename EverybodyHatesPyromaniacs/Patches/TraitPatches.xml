@@ -18,11 +18,10 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	    <xpath>/Defs/TraitDef[defName="defName"]/commonality</xpath>
+	    <xpath>/Defs/TraitDef[defName="Pyromaniac"]/commonality</xpath>
 	    <value>
 			<commonality>0.1</commonality>
 	    </value>
-    </match>
 </Operation>
 	
 </Patch>
